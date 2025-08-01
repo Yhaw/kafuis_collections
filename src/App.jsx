@@ -8,7 +8,7 @@ import ProductListPage from "./pages/ProductListPage";
 
 export default function App() {
   return (
-    <Router>
+<Router basename="/kafuis_collections/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
